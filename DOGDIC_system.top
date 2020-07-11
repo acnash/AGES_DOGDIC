@@ -1,0 +1,12 @@
+#include "../amber99sb-ildn.ff/forcefield.itp"
+
+#include "./collagen_DOGDIC.itp"
+
+#include "../amber99sb-ildn.ff/tip3p.itp"
+
+[ system ]
+DOGDIC in water
+
+[ molecules ]
+Protein 	1
+SOL              1173
